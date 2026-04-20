@@ -7,6 +7,10 @@
 - 代理软件已开启，HTTP 代理端口：`21882`
 - Windows 10/11 + WSL2
 
+## 协议说明
+- **Windows**: 使用HTTP/HTTPS协议，配置git代理
+- **WSL**: 使用SSH协议，通过ProxyCommand走代理
+
 ## 快速安装
 
 ### Windows (Git Bash)
