@@ -1,0 +1,3 @@
+#!/bin/bash
+sed -i 's/^[[:space:]]*ProxyCommand/        #ProxyCommand/' ~/.ssh/config
+echo "✅ SSH 代理已关闭"
