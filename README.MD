@@ -52,7 +52,7 @@ wsl --shutdown
 
 3. 重新打开 WSL 终端。
 
-4. 注意，有些windows版本可能会报错：
+4. 注意，有些windows版本可能会报错：  
 wsl: 出现了内部错误。  
 错误代码: CreateInstance/CreateVm/ConfigureNetworking/0x8007054f  
 wsl: 无法配置网络 (networkingMode Mirrored)，回退到 networkingMode None。  
