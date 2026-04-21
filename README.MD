@@ -53,11 +53,10 @@ wsl --shutdown
 3. 重新打开 WSL 终端。
 
 4. 注意，有些windows版本可能会报错：
-wsl: 出现了内部错误。
-错误代码: CreateInstance/CreateVm/ConfigureNetworking/0x8007054f
-wsl: 无法配置网络 (networkingMode Mirrored)，回退到 networkingMode None。
-wsl: 检测到 localhost 代理配置，但未镜像到 WSL。NAT 模式下的 WSL 不支持 localhost 代理
-
+wsl: 出现了内部错误。  
+错误代码: CreateInstance/CreateVm/ConfigureNetworking/0x8007054f  
+wsl: 无法配置网络 (networkingMode Mirrored)，回退到 networkingMode None。  
+wsl: 检测到 localhost 代理配置，但未镜像到 WSL。NAT 模式下的 WSL 不支持 localhost 代理  
 此时需要关闭梯子打开wsl，然后打开梯子。
 
 ## 代理端口说明
