@@ -6,14 +6,14 @@ mkdir -p ~/scripts
 # 创建开启代理脚本
 cat > ~/scripts/proxy_on << 'EOF'
 #!/bin/bash
-sed -i 's/^[[:space:]]*#ProxyCommand/        ProxyCommand/' ~/.ssh/config
+sed -i 's/^[[:space:]]*#ProxyCommand/    ProxyCommand/' ~/.ssh/config
 echo "✅ SSH 代理已开启"
 EOF
 
 # 创建关闭代理脚本
 cat > ~/scripts/proxy_off << 'EOF'
 #!/bin/bash
-sed -i 's/^[[:space:]]*ProxyCommand/        #ProxyCommand/' ~/.ssh/config
+sed -i 's/^[[:space:]]*ProxyCommand/    #ProxyCommand/' ~/.ssh/config
 echo "✅ SSH 代理已关闭"
 EOF
 
